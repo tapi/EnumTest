@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03B9A41216FA35690057DF29 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03B9A41116FA35690057DF29 /* UIKit.framework */; };
+		03B9A41416FA35690057DF29 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03B9A41316FA35690057DF29 /* Foundation.framework */; };
+		03B9A41616FA35690057DF29 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03B9A41516FA35690057DF29 /* CoreGraphics.framework */; };
+		03B9A41C16FA35690057DF29 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 03B9A41A16FA35690057DF29 /* InfoPlist.strings */; };
+		03B9A41E16FA35690057DF29 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03B9A41D16FA35690057DF29 /* main.m */; };
+		03B9A42216FA35690057DF29 /* PXAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03B9A42116FA35690057DF29 /* PXAppDelegate.m */; };
+		03B9A42416FA35690057DF29 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 03B9A42316FA35690057DF29 /* Default.png */; };
+		03B9A42616FA35690057DF29 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 03B9A42516FA35690057DF29 /* Default@2x.png */; };
+		03B9A42816FA35690057DF29 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 03B9A42716FA35690057DF29 /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		03B9A40E16FA35690057DF29 /* EnumTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EnumTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03B9A41116FA35690057DF29 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		03B9A41316FA35690057DF29 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		03B9A41516FA35690057DF29 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		03B9A41916FA35690057DF29 /* EnumTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EnumTest-Info.plist"; sourceTree = "<group>"; };
+		03B9A41B16FA35690057DF29 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		03B9A41D16FA35690057DF29 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		03B9A41F16FA35690057DF29 /* EnumTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EnumTest-Prefix.pch"; sourceTree = "<group>"; };
+		03B9A42016FA35690057DF29 /* PXAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PXAppDelegate.h; sourceTree = "<group>"; };
+		03B9A42116FA35690057DF29 /* PXAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PXAppDelegate.m; sourceTree = "<group>"; };
+		03B9A42316FA35690057DF29 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		03B9A42516FA35690057DF29 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		03B9A42716FA35690057DF29 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03B9A40B16FA35690057DF29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03B9A41216FA35690057DF29 /* UIKit.framework in Frameworks */,
+				03B9A41416FA35690057DF29 /* Foundation.framework in Frameworks */,
+				03B9A41616FA35690057DF29 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03B9A40516FA35690057DF29 = {
+			isa = PBXGroup;
+			children = (
+				03B9A41716FA35690057DF29 /* EnumTest */,
+				03B9A41016FA35690057DF29 /* Frameworks */,
+				03B9A40F16FA35690057DF29 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03B9A40F16FA35690057DF29 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03B9A40E16FA35690057DF29 /* EnumTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03B9A41016FA35690057DF29 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03B9A41116FA35690057DF29 /* UIKit.framework */,
+				03B9A41316FA35690057DF29 /* Foundation.framework */,
+				03B9A41516FA35690057DF29 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		03B9A41716FA35690057DF29 /* EnumTest */ = {
+			isa = PBXGroup;
+			children = (
+				03B9A42016FA35690057DF29 /* PXAppDelegate.h */,
+				03B9A42116FA35690057DF29 /* PXAppDelegate.m */,
+				03B9A41816FA35690057DF29 /* Supporting Files */,
+			);
+			path = EnumTest;
+			sourceTree = "<group>";
+		};
+		03B9A41816FA35690057DF29 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				03B9A41916FA35690057DF29 /* EnumTest-Info.plist */,
+				03B9A41A16FA35690057DF29 /* InfoPlist.strings */,
+				03B9A41D16FA35690057DF29 /* main.m */,
+				03B9A41F16FA35690057DF29 /* EnumTest-Prefix.pch */,
+				03B9A42316FA35690057DF29 /* Default.png */,
+				03B9A42516FA35690057DF29 /* Default@2x.png */,
+				03B9A42716FA35690057DF29 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03B9A40D16FA35690057DF29 /* EnumTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03B9A42B16FA35690057DF29 /* Build configuration list for PBXNativeTarget "EnumTest" */;
+			buildPhases = (
+				03B9A40A16FA35690057DF29 /* Sources */,
+				03B9A40B16FA35690057DF29 /* Frameworks */,
+				03B9A40C16FA35690057DF29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EnumTest;
+			productName = EnumTest;
+			productReference = 03B9A40E16FA35690057DF29 /* EnumTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03B9A40616FA35690057DF29 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PX;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = 500px;
+			};
+			buildConfigurationList = 03B9A40916FA35690057DF29 /* Build configuration list for PBXProject "EnumTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 03B9A40516FA35690057DF29;
+			productRefGroup = 03B9A40F16FA35690057DF29 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03B9A40D16FA35690057DF29 /* EnumTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03B9A40C16FA35690057DF29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03B9A41C16FA35690057DF29 /* InfoPlist.strings in Resources */,
+				03B9A42416FA35690057DF29 /* Default.png in Resources */,
+				03B9A42616FA35690057DF29 /* Default@2x.png in Resources */,
+				03B9A42816FA35690057DF29 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03B9A40A16FA35690057DF29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03B9A41E16FA35690057DF29 /* main.m in Sources */,
+				03B9A42216FA35690057DF29 /* PXAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		03B9A41A16FA35690057DF29 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03B9A41B16FA35690057DF29 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03B9A42916FA35690057DF29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		03B9A42A16FA35690057DF29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03B9A42C16FA35690057DF29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EnumTest/EnumTest-Prefix.pch";
+				INFOPLIST_FILE = "EnumTest/EnumTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		03B9A42D16FA35690057DF29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EnumTest/EnumTest-Prefix.pch";
+				INFOPLIST_FILE = "EnumTest/EnumTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03B9A40916FA35690057DF29 /* Build configuration list for PBXProject "EnumTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03B9A42916FA35690057DF29 /* Debug */,
+				03B9A42A16FA35690057DF29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03B9A42B16FA35690057DF29 /* Build configuration list for PBXNativeTarget "EnumTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03B9A42C16FA35690057DF29 /* Debug */,
+				03B9A42D16FA35690057DF29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03B9A40616FA35690057DF29 /* Project object */;
+}
